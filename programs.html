@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Programs</title>
+
+    <!--XCSE favicon-->
+    <link rel="icon" href="xcse logo.png" type="image/gif" sizes="32x32">
+    
+    <!--Linking to css file-->
+    <link rel="stylesheet" href="Assignment-02style.css">
+    
+    <!--Linking to font awesome: a vast icon library-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <!--This banner will swing from time to time-->
+    <div class="swing-banner">
+        <p>Designed by<br><span>Yash Kumar</span><br></p>
+    </div>
+    <!--header: contains logo, XCSE short description & connect links-->
+    <div class="header">
+        <div class="left-logo">
+            <img class="logo" src="xcse logo.png" alt="xcse_logo">
+        </div>
+        <div class="left-text">
+            <h1>XCSE</h1>
+            <p>School of Computer Science & Engineering</p>
+            <p>Xavier University Bhubaneswar</p>
+            <p>Science and Engineering education in the spirit of magis</p>
+        </div>
+        <div class="right-social-links">
+            <span>Connect:</span>
+            <i class="fa fa-google"></i>
+            <i class="fa fa-linkedin"></i>
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+        </div>
+    </div><hr>
+
+    <!--navbar: contains tabs that open in the same window on click-->
+    <div class="navbar">
+        <a  href="xcse.html" >Home</a>
+        <a class="active" href="#">Programs</a>
+        <a href="admission.html" >Admission </a>
+        <a href="faculty.html">Faculty</a>
+      </div>
+     <!--List of programs offered at xcse--> 
+    <div class="programs">
+        <h1>PROGRAMS OFFERED AT XCSE</h1>
+        <div class="grid">
+            <div class="block ug">
+                <p class="title">UNDERGRADUATE PROGRAMS</p>
+                <p class="body">B.Tech. - Computer Science & Engineering</p>
+                <p class="body">UG Fee Structure</p>
+                <p class="body">UG FAQ 2021</p>
+            </div>
+    
+            <div class="block pg">
+                <p class="title">POSTGRADUATE PROGRAMS</p>
+                <p class="body">M.Tech. in Data Science & Analysis</p>
+                <p class="body">PG Fee Structure</p>
+                <p class="body">PG FAQ 2021</p>
+            </div>
+    
+            <div class="block docp"><!--docp = doctoral program-->
+                <p class="title">DOCTORAL PROGRAMS</p>
+                <p class="body">Ph.D(Full-Time)</p>
+                <p class="body">Ph.D(Part-Time)</p>
+                <p class="body">Ph.D Fee Structure</p>
+                <p class="body">Ph.D FAQ 2021</p>
+            </div>
+        </div>
+    </div><hr>
+    <!--Footer area-->
+    <div class="address">
+        <p><p><b>Address:</b>Plot No:12(A), Nijigada, Kurki, Bubanesuar, Harirajpur, Odisha 752050</p></p>
+    </div>
+
+        <!--SCROLL TO TOP BUTTTON-->
+        <button onclick="topFunction()" class="bounce" id="myBtn" title="Go to top">Top</button>
+   
+        <!--SCROLL TO TOP BUTTTON javascript-->
+        <script>
+            var mybutton = document.getElementById("myBtn");
+    
+    
+            window.onscroll = function() {
+                scrollFunction()
+            };
+    
+            function scrollFunction() {
+                if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                    mybutton.style.display = "block";
+                } else {
+                    mybutton.style.display = "none";
+                }
+            }
+    
+    
+            function topFunction() {
+                document.body.scrollTop = 0;
+                document.documentElement.scrollTop = 0;
+            }
+        </script>
+</body>
+</html>
+

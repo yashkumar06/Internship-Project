@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Faculty</title>
+
+    <!--XCSE favicon-->
+    <link rel="icon" href="xcse logo.png" type="image/gif" sizes="32x32">
+    
+    <!--Linking to css file-->
+    <link rel="stylesheet" href="Assignment-02style.css">
+    
+    <!--Linking to font awesome: a vast icon library-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <!--This banner will swing from time to time-->
+    <div class="swing-banner">
+        <p>Designed by<br><span>Yash Kumar,</span><br>
+    </div>
+    <!--header: contains logo, XCSE short description & connect links-->
+    <div class="header">
+        <div class="left-logo">
+            <img class="logo" src="xcse logo.png" alt="xcse_logo">
+        </div>
+        <div class="left-text">
+            <h1>XCSE</h1>
+            <p>School of Computer Science & Engineering</p>
+            <p>Xavier University Bhubaneswar</p>
+            <p>Science and Engineering education in the spirit of magis</p>
+        </div>
+        <div class="right-social-links">
+            <span>Connect:</span>
+            <i class="fa fa-google"></i>
+            <i class="fa fa-linkedin"></i>
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+        </div>
+    </div><hr>
+
+    <!--navbar: contains tabs that open in the same window on click-->
+    <div class="navbar">
+        <a  href="Home.html" >Home</a>
+        <a href="programs.html"  >Programs</a>
+        <a href="admission.html" >Admission </a>
+        <a class="active" href="#">Faculty</a>
+      </div>
+
+    <!--cards that display images; on hover information is displayed-->
+    <div class="card-gallery">
+         <div class="card">
+            <img src="Dr.-Goutam-Mali.jpg" alt="Dr.-Goutam-Mali" class="image">
+            <div class="overlay">
+              <div class="text">
+                  <p class="name">Dr.-Goutam-Mali</p>
+                  <p class="designation">Assistant Professor II</p>
+                  <p class="info">Ph.D. (IIT Kharagpur), ME (IIEST Shibpur), BE (Jalpaiguri Govt Engg College)</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <img src="Dr.-Rakesh-Prasad-Badoni.jpg" alt="Dr.Rakesh-Prasad-Badoni" class="image">
+            <div class="overlay">
+              <div class="text">
+                  <p class="name">Dr.Rakesh-Prasad-Badoni</p>
+                  <p class="designation">Assistant Professor</p>
+                  <p class="info">Ph.D. (IIT Kharagpur), M.Tech. (IIT Kharagpur)</p>
+              </div>
+            </div>
+          </div>
+          
+        <div class="card">
+            <img src="Fr.Joshy.jpg" alt="Joshy" class="image">
+            <div class="overlay">
+              <div class="text">
+                  <p class="name">Fr. Joshy K X, S. J.</p>
+                  <p class="designation">Lecturer</p>
+                  <p class="info">Ph.D. (Pursuing), M Sc IT, M A Philosophy, B Sc Electronics Technology</p>
+              </div>
+            </div>
+          </div>
+          
+          <div class="card">
+            <img src="Mr.-Chandan-Misra.jpg" alt="Mr.Chandan-Misra" class="image">
+            <div class="overlay">
+              <div class="text">
+                  <p class="name">Mr.Chandan-Misra</p>
+                  <p class="designation">Lecturer</p>
+                  <p class="info">Ph.D. (Pursuing), B-Tech in IT, Master of Science (MS) in Computer Science</p>
+              </div>
+            </div>
+          </div>
+          
+          <div class="card">
+            <img src="Dr.-Priyadarsan-Patra.jpg" alt="Dr.-Priyadarsan-Patra" class="image">
+            <div class="overlay">
+              <div class="text">
+                  <p class="name">Dr.Priyadarsan-Patra</p>
+                  <p class="designation">Professor</p>
+                  <p class="info">Ph.D. (University of Texas At Austin, USA)</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <img src="Dr.-Rudra-Mohan-Tripathy.jpg" alt="Dr.-Rudra-Mohan-Tripathy" class="image">
+            <div class="overlay">
+              <div class="text">
+                  <p class="name">Dr.-Rudra-Mohan-Tripathy</p>
+                  <p class="designation">Acting Dean Academics</p>
+                  <p class="designation">Associate Professor</p>
+                  <p class="info">Ph.D. (IIT Delhi), M.Tech (Utkal Univerity)</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <img src="5306_Prof.-Sourav-Mandal.jpg" alt="Prof.-Sourav-Mandal" class="image">
+            <div class="overlay">
+              <div class="text">
+                  <p class="name">Prof.-Sourav-Mandal</p>
+                  <p class="designation">Assistant Professor II</p>
+                  <p class="info">Ph.D. ( Thesis submitted ), Jadavpur University</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <img src="Dr.-Monalisa-Mandal.jpg" alt="Dr.Monalisa-Mandal" class="image">
+            <div class="overlay">
+              <div class="text">
+                  <p class="name">Dr.Monalisa-Mandal</p>
+                  <p class="designation">Assistant Professor</p>
+                  <p class="info">Ph.D. , Post-Doc (NTNU, Norway), ERCIM Fellow, Visiting Researcher (CWI, Amsterdam)</p>
+              </div>
+            </div>
+          </div>
+
+    </div><hr>
+
+    <!--Footer area-->
+    <div class="address">
+      <p><p><b>Address:</b>Plot No:12(A), Nijigada, Kurki, Bubanesuar, Harirajpur, Odisha 752050</p></p>
+  </div>
+
+    <!--SCROLL TO TOP BUTTTON-->
+    <button onclick="topFunction()" class="bounce" id="myBtn" title="Go to top">Top</button>
+   
+    <!--SCROLL TO TOP BUTTTON javascript-->
+    <script>
+        var mybutton = document.getElementById("myBtn");
+
+
+        window.onscroll = function() {
+            scrollFunction()
+        };
+
+        function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                mybutton.style.display = "block";
+            } else {
+                mybutton.style.display = "none";
+            }
+        }
+
+
+        function topFunction() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+        }
+    </script>
+  </body>
+</html>

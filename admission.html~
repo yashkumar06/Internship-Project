@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Admission</title>
+
+    <!--XCSE favicon-->
+    <link rel="icon" href="xcse logo.png" type="image/gif" sizes="32x32">
+    
+    <!--Linking to css file-->
+    <link rel="stylesheet" href="Assignment-02style.css">
+    
+    <!--Linking to font awesome: a vast icon library-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <!--This banner will swing from time to time-->
+    <div class="swing-banner">
+        <p>Designed by<br><span>Created By,</span><br>Yash Kumar</p>
+    </div>
+    <!--header: contains logo, XCSE short description & connect links-->
+    <div class="header">
+        <div class="left-logo">
+            <img class="logo" src="xcse logo.png" alt="xcse_logo">
+        </div>
+        <div class="left-text">
+            <h1>XCSE</h1>
+            <p>School of Computer Science & Engineering</p>
+            <p>Xavier University Bhubaneswar</p>
+            <p>Science and Engineering education in the spirit of magis</p>
+        </div>
+        <div class="right-social-links">
+            <span>Connect:</span>
+            <i class="fa fa-google"></i>
+            <i class="fa fa-linkedin"></i>
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+        </div>
+    </div><hr>
+
+    <!--navbar: contains tabs that open in the same window on click-->
+    <div class="navbar">
+        <a  href="Home.html" >Home</a>
+        <a href="programs.html" >Programs</a>
+        <a class="active" href="#">Admission </a>
+        <a href="faculty.html" >Faculty</a>
+      </div>
+    <!--Admission intro banner-->
+    <div class="intro-banner">
+        <div class="container">
+            <h1>ADMISSION</h1>
+            <p>Ennobling the Human Spirit</p>
+            <p>Experience a five-century old Jesuit education model of academic excellence. Join a culture that believes in a challenging education that will foster strength,purpose, wisdom and impact you for the rest of your life.Join Xavier and ignite your intellect and build a better understanding of the world around you.</p>
+        </div>
+    </div>
+
+    <!--2nd Banner-->
+    <div class="admn-closed">
+        <div class="container">
+            <h1 style="color: royalblue;">SORRY!</h1>
+            <p>Admission Closed</p>
+        </div>
+    </div><hr>
+
+    <!--Footer area-->
+    <div class="address">
+        <p><p><b>Address:</b>Plot No:12(A), Nijigada, Kurki, Bubanesuar, Harirajpur, Odisha 752050</p></p>
+    </div>
+
+        <!--SCROLL TO TOP BUTTTON-->
+        <button onclick="topFunction()" class="bounce" id="myBtn" title="Go to top">Top</button>
+   
+        <!--SCROLL TO TOP BUTTTON javascript-->
+        <script>
+            var mybutton = document.getElementById("myBtn");
+    
+    
+            window.onscroll = function() {
+                scrollFunction()
+            };
+    
+            function scrollFunction() {
+                if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                    mybutton.style.display = "block";
+                } else {
+                    mybutton.style.display = "none";
+                }
+            }
+    
+    
+            function topFunction() {
+                document.body.scrollTop = 0;
+                document.documentElement.scrollTop = 0;
+            }
+        </script>
+</body>
+</html>
+
+
